@@ -7,7 +7,7 @@ function print() {
 	return new Promise((resolve,reject)=>{
 		let  invalue=input.value;
 		setTimeout(()=>{
-		div.innerHTML="Result : "+ invalue;
+		div.innerHTML="Result: "+ invalue;
 			resolve(invalue);
 	},2000);
 	})
@@ -17,7 +17,7 @@ function multiply(value){
 	return new Promise((resolve,reject)=>{
 		let newvalue=Number(value)*2;
 	setTimeout(()=>{
-		div.innerHTML="Result : "+ newvalue;
+		div.innerHTML="Result: "+ newvalue;
 			resolve(newvalue);
 	},2000);
 	})
@@ -27,7 +27,7 @@ function subtract(value){
 	return new Promise((resolve,reject)=>{
 		let newvalue=Number(value)-3;
 	setTimeout(()=>{
-		div.innerHTML="Result : "+ newvalue;
+		div.innerHTML="Result: "+ newvalue;
 			resolve(newvalue);
 	},1000);
 	})
@@ -37,7 +37,7 @@ function divide(value){
 	return new Promise((resolve,reject)=>{
 		let newvalue=Number(value)/2;
 	setTimeout(()=>{
-		div.innerHTML="Result : "+ newvalue;
+		div.innerHTML="Result: "+ newvalue;
 			resolve(newvalue);
 	},1000);
 	})
@@ -48,7 +48,7 @@ function Add(value) {
 	return new Promise((resolve,reject)=>{
 		let newvalue=Number(value)+10;
 	setTimeout(()=>{
-		div.innerHTML="Final Result : "+ newvalue;
+		div.innerHTML="Final Result: "+ newvalue;
 			resolve(newvalue);
 	},1000);
 	})
